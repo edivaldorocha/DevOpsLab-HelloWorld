@@ -20,5 +20,5 @@ script:
 deploy: 
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY_2
+    secure: $Travis-ci
   app: devopslab-helloworld-2
